@@ -20,12 +20,15 @@ evenPrint(13) => 2,4,6,8,10,12
 
 function evenPrint(number){
   //CODE BELOW HERE
-
-
+for (var i=1;i>=number;i++){
+  if(i%2===0){
+    console.log(i)
+  }
+}
   //CODE ABOVE HERE
 }
 
-
+evenPrint=30
 
 
 
@@ -53,7 +56,7 @@ oddPrint(12) => 1,3,5,7,9,11
 
 function oddPrint(number){
   //CODE BELOW HERE
-
+for(i=1;i>=)
 
   //CODE ABOVE HERE
 }
